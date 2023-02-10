@@ -71,12 +71,8 @@ button[type="submit"]:hover {
 <head>
     <meta charset="UTF-8">
     <title>Login/Sign Up</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <header>
-      <h1>OpenAI ChatGPT</h1>
-    </header>
     <main>
       <form id="form">
         <h2>Login/Sign Up</h2>
@@ -85,7 +81,6 @@ button[type="submit"]:hover {
         <button type="submit">Submit</button>
       </form>
     </main>
-    <script src="script.js"></script>
 </body>
 
 <script>

@@ -2,7 +2,6 @@
 #map {
   width: 500px;
   height: 500px;
-  background-image: url('./map.jpg');
   position: relative;
 }
 
@@ -48,14 +47,21 @@
   <head>
     <meta charset="UTF-8">
     <title>Interactive Map</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <h1>Interactive Map</h1>
     <div id="map"></div>
     <div id="preview"></div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-    <script src="script.js"></script>
+    <iframe
+      width="600"
+      height="450"
+      style="border:0"
+      loading="lazy"
+      allowfullscreen
+      referrerpolicy="no-referrer-when-downgrade"
+      src="https://www.google.com/maps/embed/v1/place?key=API_KEY
+        &q=Space+Needle,Seattle+WA">
+    </iframe>
   </body>
 
 
